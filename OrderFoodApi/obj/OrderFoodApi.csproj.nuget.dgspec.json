@@ -1,37 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programs\\OrderFoodApi\\OrderFoodApi\\OrderFoodApi.csproj": {}
+    "/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/OrderFoodApi.csproj": {}
   },
   "projects": {
-    "C:\\Programs\\OrderFoodApi\\OrderFoodApi\\OrderFoodApi.csproj": {
+    "/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/OrderFoodApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programs\\OrderFoodApi\\OrderFoodApi\\OrderFoodApi.csproj",
+        "projectUniqueName": "/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/OrderFoodApi.csproj",
         "projectName": "OrderFoodApi",
-        "projectPath": "C:\\Programs\\OrderFoodApi\\OrderFoodApi\\OrderFoodApi.csproj",
-        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "C:\\Programs\\OrderFoodApi\\OrderFoodApi\\obj\\",
+        "projectPath": "/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/OrderFoodApi.csproj",
+        "packagesPath": "/Users/dominikpietek/.nuget/packages/",
+        "outputPath": "/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/dominikpietek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.313/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,22 +37,22 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -83,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
         }
       }
     }

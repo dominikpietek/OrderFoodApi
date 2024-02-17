@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OrderFoodApi.Models;
+using System.Configuration;
 
 namespace OrderFoodApi.Databases
 {
@@ -14,9 +15,13 @@ namespace OrderFoodApi.Databases
         public DbSet<DelivererReview> DelivererReviews { get; set; }
         public DbSet<RestaurantReview> RestaurantReviews { get; set; }
         public DbSet<User> Users { get; set; }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{ 
+        //    optionsBuilder.UseSqlServer("Server=localthost;Database=OrderFoodDb;User Id = SA; Password=135Domis@");
+        //}
         public OrderFoodDbContext(DbContextOptions options) : base(options)
         {
-            
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

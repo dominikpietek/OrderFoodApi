@@ -6,15 +6,13 @@ using OrderFoodApi.Services;
 
 namespace OrderFoodApi.Repository
 {
-    public class Repository<T> : SaveChanges, IRepository<T> where T : ModelBase
+    public class Repository<T> : IRepository<T> where T : ModelBase
     {
         private readonly OrderFoodDbContext _db;
-        private readonly SaveChanges _save;
         private readonly DbSet<T> _base;
 
         public Repository(OrderFoodDbContext db)
         {
-            _save = new SaveChanges();
             _db = db;
             _base = _db.Set<T>();
         }
@@ -22,13 +20,13 @@ namespace OrderFoodApi.Repository
         public async Task<bool> AddAsync(T obj)
         {
             await _base.AddAsync(obj);
-            return await _save.SaveAsync(_db);
+            return await SaveAsync();
         }
 
         public async Task<bool> DeleteAsync(int id)
         {
             _base.Remove(await GetAsync(id));
-            return await _save.SaveAsync(_db);
+            return await SaveAsync();
         }
 
         public async Task<List<T>> GetAllAsync()
@@ -49,7 +47,13 @@ namespace OrderFoodApi.Repository
         public async Task<bool> UpdateAsync(T obj)
         {
             _base.Update(obj);
-            return await _save.SaveAsync(_db);
+            return await SaveAsync();
+        }
+
+        public async Task<bool> SaveAsync()
+        {
+            var save = await _db.SaveChangesAsync();
+            return save > 0 ? true : false;
         }
     }
 }
