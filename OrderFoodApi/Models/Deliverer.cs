@@ -1,9 +1,14 @@
-﻿using OrderFoodApi.Attributes;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using OrderFoodApi.Attributes;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection;
 
 namespace OrderFoodApi.Models
 {
-    public class Deliverer
+    public class Deliverer : ModelBase
     {
         public int Id { get; set; }
         [Required]
