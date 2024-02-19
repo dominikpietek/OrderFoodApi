@@ -17,6 +17,10 @@ builder.Services.AddDbContext<OrderFoodDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"));
 });
+builder.Services.AddCors(options => options.AddPolicy(name: "OrderFoodApiOrigins", policy =>
+{
+    policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+}));
 
 var app = builder.Build();
 
@@ -26,6 +30,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("OrderFoodApiOrigins");
 
 app.UseHttpsRedirection();
 

@@ -8,7 +8,7 @@ using OrderFoodApi.Repository;
 namespace OrderFoodApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class DelivererController : Controller
     {
         private readonly IRepository<Deliverer> _dr;

@@ -1,35 +1,40 @@
 ﻿<Properties StartupConfiguration="{8089997F-C4FA-4315-83FD-ABBC27FA833E}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OrderFoodApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OrderFoodApi/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OrderFoodApi/Controllers/DelivererController.cs">
     <Files>
-      <File FileName="OrderFoodApi/Repository/Repository.cs" Line="31" Column="47" />
-      <File FileName="OrderFoodApi/appsettings.json" Line="13" Column="1" />
-      <File FileName="OrderFoodApi/Program.cs" Line="7" Column="1" />
-      <File FileName="OrderFoodApi/Databases/OrderFoodDbContext.cs" Line="25" Column="10" />
-      <File FileName="OrderFoodApi/OrderFoodApi.http" Line="1" Column="1" />
-      <File FileName="OrderFoodApi/Models/Deliverer.cs" Line="1" Column="1" />
-      <File FileName="OrderFoodApi/Models/DelivererReview.cs" Line="1" Column="1" />
-      <File FileName="OrderFoodApi/Models/Dish.cs" Line="1" Column="1" />
-      <File FileName="OrderFoodApi/Models/ModelBase.cs" Line="1" Column="1" />
-      <File FileName="OrderFoodApi/Models/Order.cs" Line="7" Column="6" />
+      <File FileName="OrderFoodApi/Program.cs" />
+      <File FileName="OrderFoodApi/Databases/OrderFoodDbContext.cs" />
+      <File FileName="OrderFoodApi/OrderFoodApi.http" />
+      <File FileName="OrderFoodApi/Models/Deliverer.cs" />
+      <File FileName="OrderFoodApi/Models/DelivererReview.cs" />
+      <File FileName="OrderFoodApi/Models/Dish.cs" />
+      <File FileName="OrderFoodApi/Models/ModelBase.cs" />
+      <File FileName="OrderFoodApi/Models/Order.cs" />
+      <File FileName="OrderFoodApi/Interfaces/IRepository.cs" />
+      <File FileName="OrderFoodApi/Controllers/DelivererController.cs" Line="21" Column="31" />
+      <File FileName="OrderFoodApi/Attributes/PhoneNumberAttribute.cs" />
+      <File FileName="OrderFoodApi/DTOs/DelivererDTO.cs" />
+      <File FileName="OrderFoodApi/DTOs/Mapper.cs" />
+      <File FileName="OrderFoodApi/Controllers/DelivererReviewController.cs" Line="10" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OrderFoodApi">
-            <Node name="OrderFoodApi">
-              <Node name="Databases" expanded="True" />
-              <Node name="Migrations" selected="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Repository" expanded="True" />
+            <Node name="OrderFoodApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="DelivererController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.OrderFoodApi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

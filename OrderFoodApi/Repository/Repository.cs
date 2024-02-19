@@ -2,7 +2,6 @@
 using OrderFoodApi.Databases;
 using OrderFoodApi.Interfaces;
 using OrderFoodApi.Models;
-using OrderFoodApi.Services;
 
 namespace OrderFoodApi.Repository
 {
