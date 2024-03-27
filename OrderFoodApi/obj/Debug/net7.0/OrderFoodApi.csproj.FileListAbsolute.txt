@@ -72,4 +72,5 @@
 /Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/Debug/net7.0/OrderFoodApi.pdb
 /Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/Debug/net7.0/OrderFoodApi.genruntimeconfig.cache
 /Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/Debug/net7.0/ref/OrderFoodApi.dll
-/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/Debug/net7.0/OrderFoodApi.csproj.CopyComplete
+/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/Debug/net7.0/OrderFoodApi.sourcelink.json
+/Users/dominikpietek/Documents/projects/OrderFoodApi/OrderFoodApi/obj/Debug/net7.0/OrderFoo.B21E0E14.Up2Date

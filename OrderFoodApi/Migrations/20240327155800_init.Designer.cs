@@ -12,7 +12,7 @@ using OrderFoodApi.Databases;
 namespace OrderFoodApi.Migrations
 {
     [DbContext(typeof(OrderFoodDbContext))]
-    [Migration("20240217172156_init")]
+    [Migration("20240327155800_init")]
     partial class init
     {
         /// <inheritdoc />

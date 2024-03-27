@@ -1,14 +1,7 @@
 ﻿<Properties StartupConfiguration="{8089997F-C4FA-4315-83FD-ABBC27FA833E}|http">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.OrderFoodApi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="OrderFoodApi/Controllers/DelivererController.cs">
     <Files>
-      <File FileName="OrderFoodApi/Program.cs" />
+      <File FileName="OrderFoodApi/Program.cs" Line="34" Column="26" />
       <File FileName="OrderFoodApi/Databases/OrderFoodDbContext.cs" />
       <File FileName="OrderFoodApi/OrderFoodApi.http" />
       <File FileName="OrderFoodApi/Models/Deliverer.cs" />
@@ -17,7 +10,7 @@
       <File FileName="OrderFoodApi/Models/ModelBase.cs" />
       <File FileName="OrderFoodApi/Models/Order.cs" />
       <File FileName="OrderFoodApi/Interfaces/IRepository.cs" />
-      <File FileName="OrderFoodApi/Controllers/DelivererController.cs" Line="21" Column="31" />
+      <File FileName="OrderFoodApi/Controllers/DelivererController.cs" Line="18" Column="22" />
       <File FileName="OrderFoodApi/Attributes/PhoneNumberAttribute.cs" />
       <File FileName="OrderFoodApi/DTOs/DelivererDTO.cs" />
       <File FileName="OrderFoodApi/DTOs/Mapper.cs" />
@@ -37,4 +30,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.OrderFoodApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

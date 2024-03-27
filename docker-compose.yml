@@ -1,21 +1,19 @@
 version: '3.8'
 
 services:
-  sql3:
-    image: mcr.microsoft.com/mssql/server:2019-latest
-    environment:
-      SA_PASSWORD: "123Domis@"
-      ACCEPT_EULA: "Y"
+  sql:
+    image: dominikpietek/sql
     ports:
       - "1433:1433"
     networks:
       - app-network
-  OrderFoodApi:
+    environment:
+      SA_PASSWORD: "P4ssw0rd"
+      ACCEPT_EULA: "Y"
+  orderfoodapi:
     build:
       context: .
       dockerfile: Dockerfile
-    depends_on:
-      - sql-server
     ports:
       - "8080:80"
     networks:
