@@ -2,7 +2,7 @@
 
 Zdjęcia ze SawggerUI:
 
-<img source="ReadmePhotos/swagger.png"/>
+<img src="ReadmePhotos/swagger.png"/>
 
 # Jak uruchomić?
 
