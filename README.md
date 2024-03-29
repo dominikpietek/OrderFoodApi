@@ -1,5 +1,9 @@
 # Aplikacji API imitująca aplikację do zamawiania jedzenia
 
+Zdjęcia ze SawggerUI:
+
+<img source="ReadmePhotos/swagger.png"/>
+
 # Jak uruchomić?
 
 1. Należy sklonować repository na swój komputer
